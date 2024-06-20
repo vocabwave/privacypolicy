@@ -1,0 +1,118 @@
+:root {
+    --primary: #222;
+    --secondary: #111;
+}
+
+/* Uni Classes */
+.heading {
+    font: caption;
+    font-size: 1.1rem;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: left;
+    width: 95%;
+    max-width: 75rem;
+    font-weight: bold;
+    margin-left: 0.5rem;
+}
+
+.marginTop {
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.bigHeading {
+    font: caption;
+    font-size: 1.4rem;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: left;
+    width: 95%;
+    font-weight: bold;
+    margin-left: 0.5rem;
+}
+
+.uniFont {
+    font: caption;
+    font-size: 1rem;
+    color: var(--uniFontClr);
+}
+
+#contactEmail {
+    color: rgb(246, 255, 0);
+}
+
+.userSlctNone {
+    user-select: none;
+}
+
+.userSlctNone::placeholder {
+    user-select: none;
+}
+
+.boldFont {
+    font-weight: bold;
+}
+
+.headingFont {
+    font-size: var(--headFont);
+    text-transform: uppercase;
+}
+
+.centreText {
+    text-align: center;
+    margin: auto;
+}
+
+.capitText {
+    text-transform: capitalize;
+    word-break: break-all;
+}
+
+.uniFont2 {
+    font: caption;
+    font-size: 0.9rem;
+    color: white;
+}
+
+body {
+    background-color: var(--primary);
+}
+
+nav {
+    background-color: var(--secondary);
+}
+
+#lightmodeBTN {
+    filter: invert();
+}
+
+#abtItsDeve {
+    margin-top: 1rem;
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: column;
+}
+
+#HotToUse {
+    margin-top: 1rem;
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: column;
+}
+
+#MoreNavWin>ul>a {
+    color: white;
+}
+
+#developerImg {
+    filter: invert();
+}
+
+#featureImg {
+    filter: invert();
+}
+
+#NavMoreLnkBtn>span {
+    filter: invert();
+}
